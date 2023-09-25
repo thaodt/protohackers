@@ -1,0 +1,8 @@
+[package]
+name = "smoke-test-echo-server"
+version = "0.1.0"
+authors = ["Amidamaru <ardtimeit@gmail.com"]
+edition = "2021"
+
+[dependencies]
+tokio = { features = ["full"] , workspace = true }
